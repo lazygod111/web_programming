@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE world [
+<!ELEMENT world (rules,people)>
+<!ELEMENT rules (#PCDATA)>
+<!ELEMENT people (#PCDATA)>
+<!ELEMENT ghost EMPTY>
+
+<!ATTLIST people tpye CDATA #IMPLIED>
+<!ATTLIST ghost exist CDATA "0">
+
+]>
+
+<world>
+<rules>
+	<math property="1">
+	<plus>a+b=a+b</plus>
+	</math>
+</rules>
+<people>
+</people>
+<ghost exist="0" />
+</world>
